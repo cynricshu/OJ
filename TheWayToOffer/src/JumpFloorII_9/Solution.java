@@ -1,4 +1,4 @@
-package Q9;
+package JumpFloorII_9;
 
 /**
  * Created by Cynric on 8/23/16.

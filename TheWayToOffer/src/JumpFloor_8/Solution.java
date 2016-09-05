@@ -1,4 +1,4 @@
-package Q8;
+package JumpFloor_8;
 
 /**
  * Created by Cynric on 8/23/16.
