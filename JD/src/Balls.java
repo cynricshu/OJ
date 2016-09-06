@@ -14,14 +14,14 @@ public class Balls {
     }
 
     public int dis(int n) {
-        float N = (float) n;
-        float sum = N;
+        double N = (float) n;
+        double sum = 0;
 
         while (N > 0) {
             N = (N / 2);
-            sum += N * 2;
+            sum += N + N * 2;
 
         }
-        return (int) sum;
+        return (int) Math.ceil(sum);
     }
 }
